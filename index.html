@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WHEATHER</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css"> 
+</head>
+<body>
+
+
+        <div class="main-container">
+           
+            <header class="input-container">
+                <input id="cityInput" class="city-input" placeholder="search city" type="text">
+                <button id="searchBtn" class="search-btn">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </button>
+                
+            </header>
+
+            <section class="weather-info " style="display: none;">
+                <div class="location-date-container">
+                    <div class="locaion">
+                        <i class="fa-solid fa-location-dot"></i>
+                        <h4 class="country-txt">gakarta</h4>
+                    </div>
+                    <h5 class="current-date-txt regular-txt">wed,07 Aug</h5>
+                </div>
+
+
+
+                <div class="weather-summary-container">
+                    <img src="img/cloud.png" class="weather-summary-img">
+                    <div class="weather-summary-info">
+                        <h1 class="temp-txt">29 °C</h1>
+                        <h3 class="condition-txt regular-txt">clouds</h3>
+                    </div>
+
+                </div>
+
+                <div class="weather-condition-container">
+                    <div class="condition-item">
+                        <i class="fa-solid fa-droplet"></i>
+                        <div class="condition-info">
+                            <h5 class="regular-txt">Humidity</h5>
+                            <h5 class="humidity-value">55%</h5>
+                        </div>
+                    </div>
+
+                      <div class="condition-item">
+                        <i class="fa-solid fa-wind"></i>
+                        <div class="condition-info">
+                            <h5 class="regular-txt">wind speed</h5>
+                            <h5 class="wind-value">2m\s</h5>
+                        </div>
+                    </div>
+
+                </div>
+
+
+
+
+            <div class="forecast-item-container">
+        
+
+
+
+
+            </div>
+
+
+
+            </section>
+
+<!-- ######################################################################################################################### -->
+
+
+
+            <section class="search-city section-message">
+                <img src="img/search.png" class="message-img">
+                <div>
+                    <h1>search city</h1>
+                </div>
+
+
+
+            </section>
+
+            <!-- ################################################################################################################## -->
+
+
+             <section class="not-found section-message" style="display: none;">
+                <img src="img/not found.jpg" class="message-img not-found">
+                <div>
+                    <h1>Not Found</h1>
+                </div>
+
+
+
+            </section>
+
+
+
+
+
+
+        </div>
+
+
+
+
+    <script src="js/bootstrap.bundle.min.js"> </script>    
+        <script src="js/main.js" defer></script>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <!-- <i class="fa-solid fa-magnifying-glass"></i> -->
+
+                                    <!-- <i class="fa-solid fa-location-dot"></i> -->
+
